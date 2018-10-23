@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+}
+
+header {
+    padding: 20px;
+
+    align-content: center;
+    color: rgb(45, 41, 49);
+    text-align: center;
+}
+
+.row{
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.character {
+    border-radius: 20px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: white;
+}
+
+.character:hover{
+    zoom: 110%;
+}
+.character:active{
+    zoom: 90%;
+}
