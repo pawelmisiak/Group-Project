@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+nav {
+    /* background-color: red; */
+    padding: 2px;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+nav ul li:hover {
+    background-color: red
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("art/Marvelstudios.svg");
+    height: 200px; 
+    width: 90%;
+    background-position: center;
+    background-size: auto; 
+    background-repeat: no-repeat;
+}
+.logo-text{
+    
+}
