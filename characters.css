@@ -12,7 +12,7 @@ header {
 
 .row{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     width: 90%;
     /* background-color: blueviolet; */
     display: flex;
@@ -20,17 +20,26 @@ header {
 }
 
 .character {
-    border-radius: 20px;
+    border-radius: 50%;
     min-width: 100px;
     min-height: 100px;
     max-width: 150px;
     max-height: 150px;
     background-color: white;
+    box-shadow: 5px 10px 8px;
+    display: flex;
+    justify-content: center
 }
 
 .character:hover{
-    zoom: 110%;
+    transform: scale(1.09);
 }
 .character:active{
-    zoom: 90%;
+    transform: scale(1)
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
 }
