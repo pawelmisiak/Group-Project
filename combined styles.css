@@ -1,0 +1,31 @@
+
+nav {
+    /* background-color: red; */
+    padding: 2px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    /* border-bottom: 1px solid white; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+nav ul li:hover {
+    background-color: red
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,43 @@
+
+iframe {
+    padding: 30px;
+}
+body {
+    background-color: rgb(28, 28, 29);
+}
+
+.row1{
+    float: left;
+    padding: 5px;
+    width: 450px; 
+}
+
+img {
+    height: 80px;
+    width: auto;
+    padding-right: 18%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+.row1{ 
+    margin-left: auto;
+    margin-right: auto;}
+
+}
+@media only screen and (max-width: 780px) {
+.row1{ 
+    margin-left: auto;
+    margin-right: auto;}
+
+}
+@media only screen and (max-width: 500px) {
+.row1{ 
+    margin-left: auto;
+    margin-right: auto;}
+
+}

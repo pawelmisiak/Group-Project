@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<style>
+img {border-radius: 50%;}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px;
+  background-color: red;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;font-family: 'Oswald', sans-serif;
+
+}
+
+.button:hover {
+  background-color: black;
+}
+h2, h4, p {
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+nav ul li:hover {
+    background-color: red
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+    padding-right: 100%;
+    border-radius: 0;
+}
+
+header {
+    display: flex;
+}
+            
+</style>
+</head>
+<header>
+   
+        <a href="index.html"><img src="art/marvellogo.png"  alt="marvellogo"></a>
+        <nav>
+          <ul>
+            <li><a href="Characters_JS.html">Characters</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+          </ul>
+        </nav>
+</header>
+<body style="background-color: rgb(28, 28, 29)">
+
+<!-- <h2 align="center" style="background-color:rgb(28, 28, 29); color:white">Our Team Section</h2> -->
+<h4 align="center">Web developers project  |  Fall 2018</h4>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="art/JoeCartoon.jpg" alt="Joe" style="width:100%">
+      <div class="container">
+        <h2 align="center">Joe</h2>
+        <p align="center" class="title">Computer Graphic Major</p>
+        <p>Senior student majoring in Computer Graphic and Images (CGI)</p>
+        <p>jsiciliano@lehman.cuny.edu</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="art/PawelCartoon.jpg" alt="Pawel" style="width:100%">
+      <div class="container">
+        <h2 align="center">Pawel</h2>
+        <p align="center" class="title">Computer Science Major</p>
+        <p>Lehman College Senior student majoring in Computer Science (CS)
+        </p>
+        <p>psmith@lehman.cuny.edu</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="art/jesusCartoon.jpg" alt="Jesus" style="width:100%">
+      <div class="container">
+        <h2 align="center">Jesus</h2>
+        <p align="center" class="title">Computer Graphic Major</p>
+        <p>Senior student majoring in Computer Graphic and Images (CGI)</p>
+        <p>jmedina@lehman.cuny.edu</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="art/RuthMejiaCartoon.jpg" alt="Jesus" style="width:100%">
+      <div class="container">
+        <h2 align="center">Ruth</h2>
+        <p align="center" class="title">Computer Graphic Major</p>
+        <p>Senior student majoring in Computer Graphic and Images (CGI)</p>
+        <p>rmejia@lehman.cuny.edu</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
